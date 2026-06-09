@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83)), 
+                      url("./Gemini_Generated_Image_sxw0u5sxw0u5sxw0111111111111111111111111111111111111111111.png "); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
+.top {
+  min-height: 60vh;
+    background-image: linear-gradient(
+        rgba(36, 93, 145, 0.88), 
+        rgba(63, 142, 202, 0.92)
+    ),
+    url('./back-view-sad-professional-esports-gamer-losing-shooter-mock-up-video-game-defeated-man-with-headphones-streaming-online-cyber-performing-gaming-tournament-using-powerful-personal-computer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 50px 20px 0px 20px; 
+    margin-bottom: 0px !important; 
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+header h1 {
+    color: #ffffff; 
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.welcome {
+    color: #f0f4f8; 
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin: 20px 0;
+}
+
+.q{
+    width: 260px;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+}
+.search input[type="submit"]{
+    background-color: #4292d1;
+    color: white;
+
+    border: none;
+    border-radius: 25px;
+
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.search input[type="submit"]:hover, 
+.search button:hover {
+    background-color: #2b72a8 !important;
+    transform: translateY(-1px) !important;
+}
+nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.h, .s, .A {
+    text-decoration: none;
+    color: #ffffff; 
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.h::after, .s::after, .A::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -6px;
+    left: 0;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+.h:hover, .s:hover, .A:hover {
+    color: #e7e8e9; 
+    text-shadow: 0 0 8px rgba(240, 244, 246, 0.6); 
+    transition: all 0.3s ease; 
+}
+.h:hover::after, .s:hover::after, .A:hover::after {
+    width: 100%; 
+}
+
+select {
+    background-color: #ffffff; 
+    color: #333333; 
+    border: 1px solid #cccccc; 
+    border-radius: 20px; 
+    padding: 6px 15px; 
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease; 
+}
+
+select:hover {
+    background-color: #ffffff;
+    color: #3f8ece; 
+    border-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3); 
+}
+
+
+select option {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.hi {
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.img {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0 5px;
+}
+
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 0 auto 20px auto; 
+    border-radius: 2px;
+}
+
+
+.key1, .head1, .mouse1, .controller1 {
+   background-color: #4292d1;
+    border-radius: 12px;
+    padding: 20px 15px; 
+    width: 300px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.key1 img, .head1 img, .mouse1 img, .controller1 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+
+.prod-desc {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #4292d1;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-top: auto;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #ebebeb; 
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2); 
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+
+.keyboards, .head, .controller, .mouse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 30px 40px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.keyboards h2, .head h2, .controller h2, .mouse h2 {
+    font-size: 32px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+footer {
+    background: #222222; 
+    color: #e0e0e0;
+    padding: 60px 40px 30px 40px; 
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 40px;
+    text-align: left; 
+    border-top: 3px solid #3b82b6; 
+}
+
+footer p {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    font-size: 15px;
+    line-height: 1.8; 
+    color: #b3b3b3;
+}
+
+
+footer h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+
+footer h3::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #3b82b6;
+    margin-top: 8px;
+}
+
+footer .contact-info {
+    flex: 1;
+    min-width: 250px;
+    font-size: 15px;
+    line-height: 2; 
+    color: #e0e0e0;
+}
+
+footer strong {
+    color: #3b82b6; 
+    font-weight: 600;
+}
+
+.ourproduct {
+ background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    max-width: 1300px;
+    margin: 0px auto 60px auto; 
+    padding: 40px 20px; 
+
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.sign {
+    font-size: 40px;
+    color: #222;
+}
+
+.to-top {
+    margin: auto;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #3b82b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px; 
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.to-top:hover {
+    background-color: #226789;
+}

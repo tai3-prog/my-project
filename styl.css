@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Segoe UI', sans-serif;
+
+    background-image:
+    linear-gradient( rgba(255,255,255,0.88),rgba(255,255,255,0.88)),url("./Gemini_Generated_Image_sxw0u5sxw0u5sxw0111111111111111111111111111111111111111111.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.top {
+  min-height: 60vh;
+    background-image: linear-gradient(
+        rgba(36, 93, 145, 0.88), 
+        rgba(63, 142, 202, 0.92)
+    ),
+    url('./back-view-sad-professional-esports-gamer-losing-shooter-mock-up-video-game-defeated-man-with-headphones-streaming-online-cyber-performing-gaming-tournament-using-powerful-personal-computer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    padding: 50px 20px 0px 20px; 
+    margin-bottom: 0px !important; 
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.welcome{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin: 20px 0;
+}
+
+.q{
+    width: 260px;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+}
+.search input[type="submit"]{
+    background-color: #4292d1;
+    color: white;
+
+    border: none;
+    border-radius: 25px;
+
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.search input[type="submit"]:hover, 
+.search button:hover {
+    background-color: #2b72a8 !important;
+    transform: translateY(-1px) !important;
+}
+header h1 {
+    color: #ffffff; 
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.h, .s, .A {
+    text-decoration: none;
+    color: #ffffff; 
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.h::after, .s::after, .A::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -6px;
+    left: 0;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+.h:hover, .s:hover, .A:hover {
+    color: #e7e8e9; 
+    text-shadow: 0 0 8px rgba(240, 244, 246, 0.6); 
+    transition: all 0.3s ease; 
+}
+.h:hover::after, .s:hover::after, .A:hover::after {
+    width: 100%; 
+}
+
+select {
+    background-color: #ffffff; 
+    color: #333333; 
+    border: 1px solid #cccccc; 
+    border-radius: 20px; 
+    padding: 6px 15px; 
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease; 
+}
+
+select:hover {
+    background-color: #ffffff;
+    color: #3f8ece; 
+    border-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3); 
+}
+
+
+select option {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.hi {
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+.img {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.product-page-content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.product-title {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.product-main-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.product-main-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.section-subtitle {
+    font-size: 22px;
+    color: #444;
+    margin: 20px 0 10px;
+    text-transform: capitalize;
+}
+
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto 25px auto;
+    max-width: 500px; 
+    text-align: left; 
+}
+
+.list li {
+    margin-bottom: 12px;
+    color: #555;
+    position: relative;
+    padding-left: 25px;
+    font-size: 16px;
+}
+
+
+.list li::before {
+    content: "•";
+    color: #007bff; 
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.payment {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+form {
+    text-align: center;
+}
+
+.z {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.z label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.z input[type="text"],
+.z input[type="email"],
+.z input[type="tel"],
+.z select {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #fcfcfc;
+    width: 100%;
+}
+
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0px;
+    transition: background 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.t{
+     background-color: #ffffff;
+    color: #4292d1;
+}
+
+footer {
+    background: #1a1a1a; 
+    padding: 60px 40px 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 45px;
+    text-align: left; 
+    border-top: 3px solid #3b82b6; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer p {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    font-size: 15px;
+    line-height: 1.8; 
+    color: #b3b3b3;
+}
+
+footer h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+footer h3::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #3b82b6;
+    margin-top: 8px;
+}
+
+footer .contact-info {
+    flex: 1;
+    min-width: 250px;
+    font-size: 15px;
+    line-height: 2; 
+    color: #e0e0e0;
+}
+
+footer strong {
+    color: #3b82b6; 
+    font-weight: 600;
+}
